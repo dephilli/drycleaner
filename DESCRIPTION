@@ -1,0 +1,10 @@
+Package: drycleaner
+Type: Package
+Title: Common Clean Data Up for R 
+Version: 0.1.0
+Author: David Phillips
+Maintainer: David Phillips <dephilli@gmail.com>
+Description: Just a handy clean up tool for R. 
+License: MIT
+Encoding: UTF-8
+LazyData: true

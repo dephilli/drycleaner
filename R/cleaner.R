@@ -14,7 +14,6 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 trim_all_ws <- function(dframe) {
-  names <- names(dframe[sapply(dframe, is.character)])
-  cols_to_trim <- names(dframe)
+  cols_to_trim <- names(loc_hist[sapply(loc_hist, is.character)])
   dframe[cols_to_trim] <- lapply(dframe[cols_to_trim], trimws)
   return(dframe)}
